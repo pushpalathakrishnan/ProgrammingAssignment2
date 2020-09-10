@@ -2,6 +2,7 @@ f<-"https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2Fss06hid.csv";
 dest<-"~/R/ProgrammingAssignment2/fss.csv";
 download.file(f, dest)
 d <- read.csv("~/R/ProgrammingAssignment2/fss.csv")
+d
 sum(d$VAL == 24, na.rm = TRUE)
 date_var <- date()
 date_var
