@@ -1,4 +1,4 @@
-#oading required packages
+#Loading required packages
 
 install.packages("dplR")
 install.packages("magrittr")
